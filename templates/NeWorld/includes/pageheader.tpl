@@ -25,8 +25,7 @@
 	            </div>
 	        {/if}
         {/if}
-        
-		<a href="{$WEB_ROOT}/cart.php?a=view" class="btn btn-primary"><i class="fa fa-shopping-cart"></i><span id="cartItemCount" class="badge badge-danger">{$cartitemcount}</span></a>
+		<a href="{$WEB_ROOT}/cart.php?a=view" class="btn btn-primary" style="vertical-align:top"><i class="fa fa-shopping-cart"></i><span id="cartItemCount" class="badge badge-danger">{$cartitemcount}</span></a>
 	</div>
 	{if $formaction == 'dologin.php' || $filename == 'logout' || $filename == 'pwreset'}class="login"{elseif $templatefile == 'homepage' || $templatefile == 'vps' || $templatefile == 'pricing' || $templatefile == 'features' || $filename == 'contact' || $filename == 'cart'}
 	</div>
